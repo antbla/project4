@@ -42,7 +42,7 @@ def two_player_network():
 						"gameid":gameid,
 						"token": channel.create_channel(name + gameid),
 						"yourname": name,
-						"url": 'http://project4.pr620057315.appspot.com/'+name+'/'+gameid
+						"url": 'http://project4.aw620025070.appspot.com/'+name+'/'+gameid
 						}
     
 	return render_template(

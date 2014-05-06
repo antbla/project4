@@ -13,7 +13,7 @@ window.onload = function()
 	attachEvent(document.getElementById("weeklyLink"), "click", getTopPlayers);
 	
     currentuser = document.getElementById("playername").innerHTML;
-    gameid = document.getElementById("gameid").innerHTML;
+   gameid = document.getElementById("gameid").innerHTML;
 	token = document.getElementById("token").innerHTML;
 	playerType = document.getElementById("playerType").innerHTML;
 	
